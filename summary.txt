@@ -1,0 +1,58 @@
+ SUMMARY FILE
+
+ - Elements Shown in the HTML&CSS Book -
+
+<html> </html>		Tells the page there is html code within.
+<body> </body>		The body of the page. Indicates that anything within should be shown inside the main browser window.
+<h1> </h1>			The main heading. Increase the number, and the heading will get smaller (all the way to 6).
+<p> </p>			Represents a paragraph.
+<head> </head>		This contains information ABOUT the page.
+					Stuff in here isn't shown on the main section of the webpage, but in the top (title area).
+<title> </title>	Within is the title shown at the top of the webpage (or web browser).
+<b> </b>			Makes text bold.
+<i> </i>			Makes text italicized.\
+<sup> </sup>		Text becomes a superscript.
+<sub> </sub>		Text becomes a subscript
+<br />				Line break.
+<hr />				Horizontal rule (line).
+<strong> </strong>	Indicates the content has a strong importance. (default, makes the text bold + ex: may say the text w/ strong emphasis)
+<em> </em>			Indicates emphasis that subtly changes the meaning of a sentance. (default, makes the text italic)
+<blockquote> </blockquote>
+					Used for longer quotes that take up an entire paragraph. You can use <p> tags within.
+<q> </q>			Used for shorter quotes that are within a paragraph. But, IE doesn't put " " quotes around the quote,
+					even though other browsers do. So people avoid this tag.
+<abbr> </abbr>		If you use an abbreviation or an acronym, you can use the <abbr> element. The title tag is used to specify the full term.
+					HTML5 just uses the <abbr> element for both abbreviations and acronyms, while in HTML4
+					there was a separate <acronym> element.
+<cite> </cite>		The cite element can be used to indicate where the citation is from.
+					In HTML5 <cite> shouldn't be used for a person's name (though people did in HTML4).
+					Browsers will render content of <cite> in italics.
+<dfn> </dfn>		Is used to indicate the defining instance of a new term. Some browsers show the content in italics.
+					The word/phrase that needs to be defined goes within the tags, and the definition after.
+<address> </address>
+					The <address> element has a specific use: to contain contact details for the author of the page.
+					It can contain the physical address but doesn't have to. Could contain phone # or email address.
+					Also, see hCard microformat for adding physical address info.
+<ins> </ins>		Used to show content that has been inserted into a document. (text is usually underlined)
+<del> </del>		Can show text that has been deleted from a document. (text has a line through it)
+<s> </s>			Indicates something is no longer relevant or accurate, but shouldn't be deleted.
+					Visually, shows text with a line through it.
+					Note: older versions of HTML had the <u> element for underlined content, but this is being phased out.
+<a> </a>			The link tag, to connect webpages. Most commonly used with this is the href attribute. (see below)
+
+- Attributes -
+
+<p lang="en">Paragraph in English</p>		The lang attribute. Indicates the text within is in the language specified.
+
+
+
+
+<blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh"> </blockquote>
+
+In the above example, cite is the attribute. The value should be a URL that contains more data about the citation.
+
+
+
+
+<a href="mailto:homer@example.org">homer@example.org</a> The href attribute, within the <a></a> tags.
+href indicates a link's destination.
