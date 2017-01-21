@@ -39,6 +39,13 @@
 					Visually, shows text with a line through it.
 					Note: older versions of HTML had the <u> element for underlined content, but this is being phased out.
 <a> </a>			The link tag, to connect webpages. Most commonly used with this is the href attribute. (see below)
+<ol> </ol>			Ordered list. List elements <li> go within.
+<ul> </ul>			Unordered lists. List elements <li> go within.
+<li> </li>			List elements. Go within the list tags <ol>.
+<dl> </dl>			A definition list. Within is <dt> and <dd> elements.
+<dt> </dt>			Definition term. Contains the term that will be defined.
+<dd> </dd>			Contains the definition.
+
 
 - Attributes -
 
