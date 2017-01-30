@@ -49,25 +49,26 @@ SUMMARY FILE
 
 - Attributes -
 
-<p lang="en">Paragraph in English</p>		The lang attribute. Indicates the text within is in the language specified.
-
-
-
-
-<blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh"> </blockquote>
-
-In the above example, cite is the attribute. The value should be a URL that contains more data about the citation.
-
-
-
-
-<a href="mailto:homer@example.org">homer@example.org</a>
-<a href="http://www.imdb.com">IMDB</a>
-
-The href attribute, within the <a></a> tags. href indicates a link's destination.
-
-There's also the target="_blank" attribute, which opens a link in a new window.
-Generally, you should avoid opening links in a new window, but if you do, it's considered good 
-practice to inform users that the link will open a new window before they click on it.
-
-The id="" attribute! (the id attribute). Can be used in any
+- lang
+	<p lang="en">Paragraph in English</p>
+	The lang attribute. Indicates the text within is in the language specified.
+- cite
+	<blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh"> </blockquote>
+	In the above example, cite is the attribute. The value should be a URL that contains more data about the citation.
+- href
+	<a href="mailto:homer@example.org">homer@example.org</a>
+	<a href="http://www.imdb.com">IMDB</a>
+	The href attribute, within the <a></a> tags. href indicates a link's destination.
+- target
+	There's also the target="_blank" attribute, which opens a link in a new window.
+	Generally, you should avoid opening links in a new window, but if you do, it's considered good 
+	practice to inform users that the link will open a new window before they click on it.
+- id
+	The id attribute assignes an id to an html element.
+	In chapter 4, we use href's to link to certain id's as a way to go to certain locations on the page.
+	Example:
+				<a href="#topOfPage">Go To Top</a>		Clicking this will go to the html element that has
+														the id = "topOfPage"
+				<h2 id="topOfPage">Welcome!</h2>		This is the h2 element that is id'd by topOfPage.
+														When the link above is clicked, the page will go to
+														where this html element is!
