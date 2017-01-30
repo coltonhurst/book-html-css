@@ -1,6 +1,6 @@
- SUMMARY FILE
+SUMMARY FILE
 
- - Elements Shown in the HTML&CSS Book -
+- Elements Shown in the HTML&CSS Book -
 
 <html> </html>		Tells the page there is html code within.
 <body> </body>		The body of the page. Indicates that anything within should be shown inside the main browser window.
@@ -61,5 +61,13 @@ In the above example, cite is the attribute. The value should be a URL that cont
 
 
 
-<a href="mailto:homer@example.org">homer@example.org</a> The href attribute, within the <a></a> tags.
-href indicates a link's destination.
+<a href="mailto:homer@example.org">homer@example.org</a>
+<a href="http://www.imdb.com">IMDB</a>
+
+The href attribute, within the <a></a> tags. href indicates a link's destination.
+
+There's also the target="_blank" attribute, which opens a link in a new window.
+Generally, you should avoid opening links in a new window, but if you do, it's considered good 
+practice to inform users that the link will open a new window before they click on it.
+
+The id="" attribute! (the id attribute). Can be used in any
