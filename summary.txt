@@ -61,6 +61,10 @@ SUMMARY FILE
 					styling in css and for those who use screen readers.
 <tbody> </tbody>	The body of the table.
 <tfoot> </tfoot>	The footer of the table.
+<form> </form>		Form control elements live within the <form> element. This requires the action attribute and
+					should usually have a method and id attribute too.
+<input> </input>	The input element. Used for several different form controls. See attributes below that apply.
+					Ex: type, name, size, maxlength
 
 
 - Attributes -
@@ -111,6 +115,26 @@ SUMMARY FILE
 - rowspan
 	This attribute is used for table headers or data, etc. when they span across multiple rows.
 	Ex: <td rowspan="3">CNN</td>
-
-
-
+- action
+	A mandatory attribute within the <form> element. Contains the URL for the page on the server that will receive the
+	information in the form when submitted.
+- method
+	Forms can be sent using one of two methods: get or post. If this attribute isn't used, the default type is get.
+	- get
+		Used for short forms, and when you're retrieving data from the web server. The values from the form are added
+		to the end of the URL specified in the action attribute.
+	- post
+		The values are sent in HTTP headers. You should use post if users are uploading a file, if the form is very long,
+		if the form contains sensitive data like passwords, if it adds or deletes info from a database, etc.
+- type
+	Used in the <input> element. Determines what kind of input will be created.
+	Examples:
+		- text
+			Creates a single line of text input (textbox)
+- name
+	The name of a form control to be referenced / used later.
+- size
+	Setting the size of a form control. This is old, you should do this in CSS. The value (integer) is the number of characters
+	that can be seen within the form control.
+- maxlength
+	Sets the max length of a form control.
