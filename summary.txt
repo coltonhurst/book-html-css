@@ -48,6 +48,10 @@ SUMMARY FILE
 <dd> </dd>			Contains the definition.
 <img />				The image element. It is an empty element (doesn't have a closing tag).
 					Use the following attributes within: src, alt, and title
+<figure> </figure>	Introduced in HTML5, this element can contain images that share a caption.
+					It uses the <img /> element and the <figcaption> element within.
+<figcaption> </figcaption>
+					Used in the <figure> element. Holds a caption of the image(s).
 
 
 - Attributes -
