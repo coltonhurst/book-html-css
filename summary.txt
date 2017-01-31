@@ -52,6 +52,15 @@ SUMMARY FILE
 					It uses the <img /> element and the <figcaption> element within.
 <figcaption> </figcaption>
 					Used in the <figure> element. Holds a caption of the image(s).
+<table> </table>	A table in html. Contains <tr> and <td> elements to create the table.
+<tr> </tr>			Table row. Goes within the <table> element, and holds the <td> element.
+<td> </td>			Table data. Holds elements of data that go in a table row <tr>.
+<th> </th>			Table header. Is an element that represents the heading for either a column
+					or a row. You can use the scope attribute to define if it's a "row" or "col".
+<thead> </thead>	A table head. Not really different than the other table stuff, but especially useful when
+					styling in css and for those who use screen readers.
+<tbody> </tbody>	The body of the table.
+<tfoot> </tfoot>	The footer of the table.
 
 
 - Attributes -
@@ -93,3 +102,15 @@ SUMMARY FILE
 	Specifies the height of an image in pixels. (More people are starting to use CSS for image sizing instead of HTML)
 - width
 	Specifies the width of an image in pixels. (More people are starting to use CSS for image sizing instead of HTML)
+- scope
+	You can use this within a table header <th> to designate that the table header is for a column or a row.
+	Ex: <th scope="row">Tickets Sold:</th>
+- colspan
+	This attribute is used for table headers or data, etc. when they span across multiple columns.
+	Ex: <td colspan="2">Geography</td>
+- rowspan
+	This attribute is used for table headers or data, etc. when they span across multiple rows.
+	Ex: <td rowspan="3">CNN</td>
+
+
+
