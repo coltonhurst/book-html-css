@@ -46,6 +46,8 @@ SUMMARY FILE
 <dl> </dl>			A definition list. Within is <dt> and <dd> elements.
 <dt> </dt>			Definition term. Contains the term that will be defined.
 <dd> </dd>			Contains the definition.
+<img />				The image element. It is an empty element (doesn't have a closing tag).
+					Use the following attributes within: src, alt, and title
 
 
 - Attributes -
@@ -73,3 +75,17 @@ SUMMARY FILE
 				<h2 id="topOfPage">Welcome!</h2>		This is the h2 element that is id'd by topOfPage.
 														When the link above is clicked, the page will go to
 														where this html element is!
+- src
+	In this example, used for images. Tells the <img /> tag where the image is.
+- alt
+	In the <img /> tag, this is a text description of the image in case the image doesn't come up,
+	and also is helpful for those with screen reader software and search engines.
+	If using an image to only make a page look more attractive, then include this, but the quotes
+	should be empty.
+- title
+	Can use with the <img /> element to provide additional info about the image. Any text that is within
+	the quotes for this attribute will appear in a tooltip when the mouse hovers over the image.
+- height
+	Specifies the height of an image in pixels. (More people are starting to use CSS for image sizing instead of HTML)
+- width
+	Specifies the width of an image in pixels. (More people are starting to use CSS for image sizing instead of HTML)
