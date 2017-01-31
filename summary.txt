@@ -39,6 +39,7 @@ SUMMARY FILE
 					Visually, shows text with a line through it.
 					Note: older versions of HTML had the <u> element for underlined content, but this is being phased out.
 <a> </a>			The link tag, to connect webpages. Most commonly used with this is the href attribute. (see below)
+					Can also link to other id's with the #. See below for an example.
 <ol> </ol>			Ordered list. List elements <li> go within.
 <ul> </ul>			Unordered lists. List elements <li> go within.
 <li> </li>			List elements. Go within the list tags <ol>.
