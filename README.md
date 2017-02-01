@@ -7,4 +7,4 @@ There's also the file [summary.txt](https://github.com/coltonhurst/book-html-css
 
 ### Note:
 
-In no way do I take any ownership of the code that Jon Duckett (the author) created. He has some code samples online [here](http://www.htmlandcssbook.com/code-samples/). Please see the [LICENSE.txt](https://github.com/coltonhurst/book-html-css/blob/master/summary.txt) file for more information.
+In no way do I take any ownership of the code that Jon Duckett (the author) created. He has some code samples online [here](http://www.htmlandcssbook.com/code-samples/). Please see the [LICENSE.txt](https://github.com/coltonhurst/book-html-css/blob/master/LICENSE.txt) file for more information.
