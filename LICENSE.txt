@@ -1,0 +1,4 @@
+The code is free and can be used for any personal purposes. Commercial with written permission.
+John Wiley & Sons, Inc. and the author(s) can not be held liable (or me) for any use or result of anything from the book's text or code, as well as any information from myself.
+Basically, don't do anything stupid, and if you do, the book publishers, authors, and I cannot be held liable for anything. Use at your own risk.
+The book can be obtained from "http://www.htmlandcssbook.com/buy/".

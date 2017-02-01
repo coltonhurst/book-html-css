@@ -65,6 +65,8 @@ SUMMARY FILE
 					should usually have a method and id attribute too.
 <input> </input>	The input element. Used for several different form controls. See attributes below that apply.
 					Ex: type, name, size, maxlength
+<textarea> </textarea>
+					Creates a multi-line text box. Anything within is "default" text within when the page loads.
 
 
 - Attributes -
@@ -131,6 +133,8 @@ SUMMARY FILE
 	Examples:
 		- text
 			Creates a single line of text input (textbox)
+		- password
+			Creates a text input (above), except the characters are hidden (they show up as dots as default I think)
 - name
 	The name of a form control to be referenced / used later.
 - size
