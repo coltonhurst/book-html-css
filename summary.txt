@@ -63,14 +63,24 @@ SUMMARY FILE
 <tfoot> </tfoot>	The footer of the table.
 <form> </form>		Form control elements live within the <form> element. This requires the action attribute and
 					should usually have a method and id attribute too.
-<input> </input>	The input element. Used for several different form controls. See attributes below that apply.
+<input />			The input element. Used for several different form controls. See attributes below that apply.
 					Ex: type, name, size, maxlength
 <textarea> </textarea>
 					Creates a multi-line text box. Anything within is "default" text within when the page loads.
 <select> </select>	A dropdown list box (aka select box). The options to select from are made with the <option> element.
 <option> </option>	Represents an option within a list/select box. The words within are the ones that will be shown as an option.
 <button> </button>	Makes a button. Basically anything can go inside, like a combination of an image and text.
-<label> </label>	The <label> tag defines a label for an <input> element.
+<label> </label>	The <label> tag defines a label for an <input> element. Technically, each form should have its own <label>
+					element, b/c this makes the form accessible to vision-impaired users.
+					This element can be used in two ways. First, to wrap around both the text description and the form input.
+					Secondly, to be kept separate from the form control and use the for attribute to indicate which form
+					control it is a label for.
+					Also, if it's a label for a checkbox or radio button for example, you can click on the text within to select instead of
+					just the physical button area itself (expands clickable area).
+<fieldset> </fieldset>
+					You can group related form controls within this element. Especially useful for organization / longer forms.
+<legend> </legend>	This element goes inside the <fieldset> element. Contains a caption which can help identify the purpose
+					of that group of form controls.
 
 - Attributes -
 
@@ -143,6 +153,15 @@ SUMMARY FILE
 		- hidden
 			A hidden form control (can be viewed through the "view source" option). A web page author could use a hidden
 			field to indeicate which page a user was on when they submitted a form.
+		- date
+			A date picker. For entering dates!
+		- email
+			For entering email addresses! Automatically verifies the email is in the correct format.
+		- url
+			Same thing as email. You have to put in a URL- automatic validation. However, when I tested it, it also required
+			"http://". So, users maybe could be confused, especially if they type www.something.com and it doesn't work.
+		- search
+			A simple search box. Includes the x to clear the search box. You can pair it with a submit button named "Search"!
 - name
 	The name of a form control to be referenced / used later.
 - size
@@ -157,3 +176,10 @@ SUMMARY FILE
 - multiple
 	If a select box has the multiple attribute, and it's value is set as multiple, it will become a multiple select box,
 	where multiple options can be selected.
+- for
+	The for attribute states which form control a label belongs to (referencing the id)
+- required
+	If required="required" in a form element, then it is required before submitting (HTML5 form validation).
+- placeholder
+	You can use this attribute on any text input element. The value that placeholder is set to will be the "placeholder" text
+	in the text input until a user clicks on the text input.
