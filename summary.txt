@@ -1,5 +1,7 @@
 SUMMARY FILE
 
+Note- some of the definitions were copied from the book. No copyright is intended, and besides the forming of this document, credit to John Duckett & his publisher for the following info!
+
 - Elements Shown in the HTML&CSS Book -
 
 <html> </html>		Tells the page there is html code within.
@@ -81,6 +83,16 @@ SUMMARY FILE
 					You can group related form controls within this element. Especially useful for organization / longer forms.
 <legend> </legend>	This element goes inside the <fieldset> element. Contains a caption which can help identify the purpose
 					of that group of form controls.
+<div> </div>		The <div> element allows you to group a set of elements together in a one block-level box.
+					This is extremely useful- you could group the header section of your page, the body, and the footer, all separately.
+<span> </span>		The <span> element is basically the inline <div> equivalent.
+					It could contain a section of text where there is no other sutiable element to differentiate it from its 
+					surrounding text. Or, it could contain a number of inline elements.
+					The most common use of <span> is to control the appearance of the content through CSS.
+<iframe> </iframe>	An iframe is like a little window that has been cut into your page, and in that window you can see another page.
+					The term iframe is an abbreviation of inline frame.
+<meta />			The <meta> element lives inside the <head> element and contains information about that web page.
+					Isn't visible to users, but super useful. Examples of attributes to use: description, keywords, & robots.
 
 - Attributes -
 
@@ -99,7 +111,10 @@ SUMMARY FILE
 	Generally, you should avoid opening links in a new window, but if you do, it's considered good 
 	practice to inform users that the link will open a new window before they click on it.
 - id
-	The id attribute assignes an id to an html element.
+	The id attribute assignes an id to an html element. It is known as the global attribute, as
+	any element can have the id attribute. No id's of elements should ever be the same, becuase
+	it is meant to be a unique identifier.
+
 	In chapter 4, we use href's to link to certain id's as a way to go to certain locations on the page.
 	Example:
 				<a href="#topOfPage">Go To Top</a>		Clicking this will go to the html element that has
@@ -183,3 +198,12 @@ SUMMARY FILE
 - placeholder
 	You can use this attribute on any text input element. The value that placeholder is set to will be the "placeholder" text
 	in the text input until a user clicks on the text input.
+- scrolling
+	This won't be supported in HTML5, so I'm not even sure why I'm putting this here (I disregarded non supported attributes before).
+	But, it's for an iframe. It can take three values to determine if you want the iframe to have scroll bars enabled (yes/no/auto).
+- frameborder
+	This won't be supported in HTML5, so I'm not even sure why I'm putting this here either. For an iframe. Do you want a border?
+	0 is no. 1 is yes.
+- seamless
+	This IS supported in HTML5. This can be applied to an iframe where scrollbars are not desired. This attribute doesn't require
+	a value, so often you will see seamless="seamless". Classic.
