@@ -1,0 +1,5 @@
+A lot is outdated in this chapter.
+
+You can see the code for chapter 9 here:
+
+http://www.htmlandcssbook.com/code-samples/chapter-09/
