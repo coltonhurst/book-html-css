@@ -67,7 +67,10 @@ SUMMARY FILE
 					Ex: type, name, size, maxlength
 <textarea> </textarea>
 					Creates a multi-line text box. Anything within is "default" text within when the page loads.
-
+<select> </select>	A dropdown list box (aka select box). The options to select from are made with the <option> element.
+<option> </option>	Represents an option within a list/select box. The words within are the ones that will be shown as an option.
+<button> </button>	Makes a button. Basically anything can go inside, like a combination of an image and text.
+<label> </label>	The <label> tag defines a label for an <input> element.
 
 - Attributes -
 
@@ -135,6 +138,11 @@ SUMMARY FILE
 			Creates a single line of text input (textbox)
 		- password
 			Creates a text input (above), except the characters are hidden (they show up as dots as default I think)
+		- file
+			For uploading a file.
+		- hidden
+			A hidden form control (can be viewed through the "view source" option). A web page author could use a hidden
+			field to indeicate which page a user was on when they submitted a form.
 - name
 	The name of a form control to be referenced / used later.
 - size
@@ -142,3 +150,10 @@ SUMMARY FILE
 	that can be seen within the form control.
 - maxlength
 	Sets the max length of a form control.
+- checked
+	For radio or checkbox buttons in forms. If checked="checked", then it will be selected by default on the page load.
+- selected
+	Similar to checked, can be used to indicate the option that should be selected when a page loads within a list/select box.
+- multiple
+	If a select box has the multiple attribute, and it's value is set as multiple, it will become a multiple select box,
+	where multiple options can be selected.
