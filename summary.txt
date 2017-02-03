@@ -1,6 +1,7 @@
 SUMMARY FILE
 
 Note- some of the definitions were copied from the book. No copyright is intended, and besides the forming of this document, credit to John Duckett & his publisher for the following info!
+Also, some content may have been copied over from other websites (like w3 schools). I claim no ownership/authorship, aside from compiling this list.
 
 - Elements Shown in the HTML&CSS Book -
 
@@ -92,7 +93,7 @@ Note- some of the definitions were copied from the book. No copyright is intende
 <iframe> </iframe>	An iframe is like a little window that has been cut into your page, and in that window you can see another page.
 					The term iframe is an abbreviation of inline frame.
 <meta />			The <meta> element lives inside the <head> element and contains information about that web page.
-					Isn't visible to users, but super useful. Examples of attributes to use: description, keywords, & robots.
+					Isn't visible to users, but super useful.
 
 - Attributes -
 
@@ -207,3 +208,33 @@ Note- some of the definitions were copied from the book. No copyright is intende
 - seamless
 	This IS supported in HTML5. This can be applied to an iframe where scrollbars are not desired. This attribute doesn't require
 	a value, so often you will see seamless="seamless". Classic.
+- some meta attributes
+	- name & content
+		Most common, used together. They specify properties of an entire page.
+	- description
+		Commonly used by search engines to understand what the page is about. Should be a max of 155 characters.
+		Sometimes this is also displayed in search engine results.
+	- keywords
+		Should contain a list of comma-separated words that a user might search on to find the page.
+		In practice, this no longer has any noticeable effect on how search engines index your site.
+	- robots
+		Indicates whether search engines should add this page to their search results or not. A value of noindex can be used
+		if this page should not be added. A value of nofollow can be used if search engines should add this page in their results
+		but not any pages that it links to.
+	- http-equiv
+		- author
+			Defines the author of the web page.
+		- pragma
+			Prevents browsers from chaching the page. (prevents it from storing it locally to save time downloading it on subsequent visits)
+		- expires
+			Indicates if the page should expire, and if it does, then it should no longer be cached. The date must be in the following form
+			example: Fri, 04 Apr 2014 23:59:59 GMT
+		The http-equiv attribute provides an HTTP header for the information/value of the content attribute.
+		The http-equiv attribute can be used to simulate an HTTP response header.
+		
+		Using http-equiv is no longer the only way to specify the character set of an HTML document:
+
+		HTML 4.01: <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		HTML5: <meta charset="UTF-8">
+
+		attribute values: content-type, default-style, & refresh
