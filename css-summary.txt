@@ -1,0 +1,26 @@
+CSS SUMMARY FILE
+
+Note- some of the definitions were copied from the book. No copyright is intended, and besides the forming of this document, credit to John Duckett & his publisher for the following info!
+Also, some content may have been copied over from other websites (like w3 schools). I claim no ownership/authorship, aside from compiling this list.
+
+- CSS associates rules with HTML elements & contains 2 parts
+	1. selector
+	2. declaration
+	Example:	p {
+					font-family: Arial;}
+	p is the selector
+	what's inside the braces {} is the declaration
+- Selector
+	Indicates what element the rule applies to
+	The same rule can apply to more than one element if you separate the element names with commas
+- Declarations
+	Indicate how the elements (referred to in the selector) should be styled
+	Split into two parts- a property and a value, and are separated by ';'
+- Property
+	Indicate the aspects of the element you want to change
+- Values
+	Specify the settings you want to use for the chosen properties
+
+	Example:	h1, h2, h3 {
+							font-family: Arial;
+							color: yellow;}
