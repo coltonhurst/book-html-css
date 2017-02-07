@@ -70,3 +70,6 @@ Also, some content may have been copied over from other websites (like w3 school
 		h1~p {}
 		Matches an element that is a sibling of another, although it does not have to be the directly preceding element
 		If you have two <p> eelements that are siblings of an <h1> element, this rule would apply to both of them
+- Last Rule
+	- In CSS, this is very important. If two selectors are identical, then the latter of the two will take precedence.
+	- You can also add !important after any property value to indicate that it should be consiered more important than the other rules that apply to the same element.
