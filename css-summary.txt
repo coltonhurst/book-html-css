@@ -35,3 +35,38 @@ Also, some content may have been copied over from other websites (like w3 school
 	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 - Internal CSS
 	In the HTML, you can use the <style> tag for internal html. However, your CSS should be in an external file.
+- You can also specify the style of css within an element.
+	Example: <p style="color:red;">
+- Selectors
+	- Universal Selector
+		* {}
+		Applies to all elements in the document
+	- Type Selector
+		h1, h2, h3 {}
+		Matches element names
+		This targets the <h1>, <h2>, and <h3> elements
+	- Class Selector:
+		.note {}	Targets any element whose class attribute has a value of note
+		p.note {}	Same as above, but only targets <p>
+
+	- ID Selector:
+		#introduction {}
+		Matchees an element whose id attribute has a value that matches the one specified after the pound or hash symbol
+		So, this one targets the element whose id attribute = "introduction"
+	- Child Selector
+		li>a {}
+		Matches an element that is a direct child of another
+		So, this targest any <a> elements that are children of an <li> element (but no other <a> elements)
+	- Descendant Selector
+		p a {}
+		Matches an element that is a descendent of another specified element (not just a direct child)
+		This targest any <a> elements that sit within a <p> element, even if there are other elements nested between them
+	- Adjacent Sibling Selector
+		h1+p {}
+		Matches an element that is the next sibling of another
+		This one targests the first <p> element after any <h1> element (but not the other <p> elements)
+		This one targest the first <p> element after any <h1> element (but not other <p> elements)
+	- General Sibling Selector
+		h1~p {}
+		Matches an element that is a sibling of another, although it does not have to be the directly preceding element
+		If you have two <p> eelements that are siblings of an <h1> element, this rule would apply to both of them
