@@ -24,3 +24,14 @@ Also, some content may have been copied over from other websites (like w3 school
 	Example:	h1, h2, h3 {
 							font-family: Arial;
 							color: yellow;}
+- Linking
+	Used to tell the browser where to find the CSS file used to style the page. Is a empty element, and lives inside the head element. Following are attributes & an example:
+	- rel
+		Specifies the relationship between the html page and the file it's linked to. The value should be stylesheet when linking to a CSS file.
+	- type
+		Specifies the type of document being linked to. For CSS, should be text/css.
+	- href
+		Specifies the path for the css FILE
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+- Internal CSS
+	In the HTML, you can use the <style> tag for internal html. However, your CSS should be in an external file.
