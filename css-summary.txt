@@ -77,11 +77,30 @@ Also, some content may have been copied over from other websites (like w3 school
 	Some properties applied to elements are inherited by child elements.
 	For example, if a <div> has a font-family or color property set, this will also apply to most child elements (elements within the div).
 	You can also force a lot of properties to inherit values from their parent elements by setting a property to: inherit
+- Color
+	Ways to set colors:
+		RGB values
+		Hex Codes
+		Color Names
+		HSL -> Hue, saturation, lightness/luminosity
+	Understanding Color
+		Hue - essentially, the color
+		Saturation - how much grey is in the color (max saturation = no grey)
+		Brightness - how much black is in the color (minimum brightness = very dark, a lot of black)
+	Contrast
+		Essentially, the difference between two colors.
+		Examples:
+			low contrast -> white text on a light-grey background (hard to read)
+			high contrast -> white text on a black background (easy to read, but hard to read for a long period of time)
+			medium contrast - > white text on a grey background (easy to read! good!)
+- Comments
+	/* */ <- use those! Essentially, the same characters for block comments in many other langauges.
 - Resources
-	Website resources for testing your websites, etc.
+	Website resources for testing your websites, color, etc.
 	- browsercam.com
 	- browserlab.adobe.com
 	- browsershots.org
 	- crossbrowsertesting.com
 	- positioniseverything.net
 	- quirksmode.org
+	- colorschemedesigner.com
