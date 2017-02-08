@@ -73,3 +73,15 @@ Also, some content may have been copied over from other websites (like w3 school
 - Last Rule
 	- In CSS, this is very important. If two selectors are identical, then the latter of the two will take precedence.
 	- You can also add !important after any property value to indicate that it should be consiered more important than the other rules that apply to the same element.
+- Inheritance
+	Some properties applied to elements are inherited by child elements.
+	For example, if a <div> has a font-family or color property set, this will also apply to most child elements (elements within the div).
+	You can also force a lot of properties to inherit values from their parent elements by setting a property to: inherit
+- Resources
+	Website resources for testing your websites, etc.
+	- browsercam.com
+	- browserlab.adobe.com
+	- browsershots.org
+	- crossbrowsertesting.com
+	- positioniseverything.net
+	- quirksmode.org
