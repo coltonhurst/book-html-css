@@ -8,3 +8,7 @@ There's also the file [summary.txt](https://github.com/coltonhurst/book-html-css
 ### Note:
 
 In no way do I take any ownership of the code that Jon Duckett (the author) created. He has some code samples online [here](http://www.htmlandcssbook.com/code-samples/). Note that some code has come from his website (incomplete code within the book that is on the website). Please see the [LICENSE.txt](https://github.com/coltonhurst/book-html-css/blob/master/LICENSE.txt) file for more information.
+
+#### Final note
+
+I didn't go through the complete book. The original reason for going through the book was as a refresher (not my first time doing html/css). However, while the reviewing was helpful, it was eventually becoming slow & repetitive. Long story short, I'm not planning on finishing this. Moved on to cooler stuff. Way cooler stuff. I wish I could put it all up on github, but... not allowed. :/
